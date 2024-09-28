@@ -50,7 +50,7 @@ function jogo(){
 
     // crando canos
     for(let i = 0; i < cano.length; i++){
-        constant = canocima.heigth + eec;
+        constant = canocima.height + eec;
         // condigurando o cano de cima
         ctx.drawImage(canocima, cano[i].x, cano[i].y);
         //configurando o cano de baixo
